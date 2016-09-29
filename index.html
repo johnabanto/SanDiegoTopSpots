@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>San Diego Top Spots</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="bower_components/animate.css/animate.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/app/styles/styles.css">
+<!-- endinject -->
+
+</head>
+<body>
+	<legend>San Diego Top Spots</legend>
+
+<!-- 	table structure to be populated through jQuery -->
+	<table class="table table-striped" id="table"> 
+		<tr>
+			<th>Name</th>
+			<th>Description</th>
+			<th>Link</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<div id='map'></div>
+
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+
+<!-- inject:js -->
+<script src="/app/index.js"></script>
+<!-- endinject -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnBI0RWLKmGTX4vN8v2XVjqUO3uahPQcM&callback=initMap" async  defer></script>
+</body>
+</html>
